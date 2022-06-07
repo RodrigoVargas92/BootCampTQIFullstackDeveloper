@@ -1,0 +1,57 @@
+.Photo{
+    border-radius: 50%;
+    border: 3px solid black;
+}
+body {
+    background:  #1e1d1d;
+    font-family: Verdana;
+    max-width:900px;
+    margin: auto;
+}
+
+#title,.subtitle {
+    color: rgb(166, 66, 8);
+}
+#title{
+   
+    text-transform: uppercase;
+    text-align: center;
+}
+a{
+    text-decoration: line-through;
+}
+
+.subtitle {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.post {
+    background: rgb(175, 173, 173);
+    padding: 15px;
+    border: 3px solid rebeccapurple;
+    margin-bottom: 15px;
+    border-radius:10%;
+    text-align: center;
+}
+.postComent {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.postImage {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid rebeccapurple;
+}
+.List{
+list-style: none;
+padding-left: 15px;
+}
+.List li a{
+color: aliceblue;
+text-decoration: none;
+
+}
